@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Jane Doe</title>
+    <title>Resume - Devansh Motghare</title>
     <link rel="stylesheet" href="index1.css">
+    <style>
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .header-text {
+            flex-grow: 1;
+        }
+    </style>
 </head>
 <body>
     <div class="resume">
         <header>
-            <h1>Jane Doe</h1>
-            <p>jane.doe@example.com | (123) 456-7890 | LinkedIn: linkedin.com/in/janedoe | GitHub: github.com/janedoe</p>
+            <div class="header-content">
+                <img src="C:\Users\Devansh\Downloads\IMG_3230 - Copy.png" alt="Profile Photo" class="profile-photo">
+                <div class="header-text">
+                    <h1>Devansh Motghare</h1>
+                    <p>devanshmotghare74@gmail.com | LinkedIn: <a href="https://www.linkedin.com/in/devanshmotghare74">www.linkedin.com/in/devanshmotghare74</a> | GitHub: <a href="https://github.com/devansh7444">https://github.com/devansh7444</a></p>
+                </div>
+            </div>
         </header>
 
         <section>
@@ -22,8 +43,8 @@
             <h2>Education</h2>
             <div class="education">
                 <h3>Bachelor of Technology in Computer Science and Engineering</h3>
-                <p>XYZ University, May 2024</p>
-                <p><strong>CGPA:</strong> 8.5/10</p>
+                <p>Symbiosis Institute Of Technology, Nagpur, May 2024</p>
+                <p><strong>CGPA:</strong> 6.5/10</p>
             </div>
         </section>
 
@@ -41,41 +62,23 @@
         <section>
             <h2>Projects</h2>
             <div class="project">
-                <h3>Online Library Management System</h3>
-                <p>Developed a web-based application for managing library operations using HTML, CSS, JavaScript, and MySQL. <a href="#">View Project</a></p>
-            </div>
-            <div class="project">
-                <h3>Personal Portfolio Website</h3>
-                <p>Created a personal portfolio website to showcase my projects and skills using React. <a href="#">View Project</a></p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Intern - Software Development</h3>
-                <p>ABC Tech Solutions, June 2023 - August 2023</p>
-                <ul>
-                    <li>Assisted in developing and testing web applications using JavaScript and React.</li>
-                    <li>Collaborated with the development team to design and implement new features.</li>
-                    <li>Participated in code reviews and debugging sessions.</li>
-                </ul>
+                <h3>Image Captioning Model</h3>
+                <p>Disaster management Web Application, HTML, CSS. <a href="https://github.com/DevanshuSawarkar/SIH-Project.git">View Project</a></p>
             </div>
         </section>
 
         <section>
             <h2>Certifications</h2>
             <ul>
-                <li>Certified Java Programmer</li>
-                <li>Introduction to Data Science (Coursera)</li>
+                <li>Red Hat Administration-1 Certification</li>
+                <li>Oracle Certification (Java)</li>
             </ul>
         </section>
 
         <section>
             <h2>Extracurricular Activities</h2>
             <ul>
-                <li>Member, Coding Club, XYZ University</li>
-                <li>Volunteer, Local Community Tech Workshops</li>
+                <li>Member, Technical Club, Symbiosis Institute Of Technology, Nagpur</li>
             </ul>
         </section>
     </div>
